@@ -1,11 +1,5 @@
 fn main() {
-    loop {
-        loop {
-            let x = 1;
-        }
+    match p {
+        x @ _ => ()
     }
-    loop {}
-    loop {}
-    loop {}
-    loop {}
 }
