@@ -1,5 +1,9 @@
 fn main() {
-    loop {}
+    loop {
+        loop {
+            let x = 1;
+        }
+    }
     loop {}
     loop {}
     loop {}
