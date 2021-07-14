@@ -1,7 +1,7 @@
 fn main() {
-    let x @ _ = 2;
-    let y @ _ = 2;
+    let = 2;
+    let = 2;
     match p {
-        x @ _ => ()
+        x => ()
     }
 }
