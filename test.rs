@@ -1,7 +1,8 @@
 fn main() {
-    let = 2;
-    let = 2;
+    let x @ _ = 2;
+    let x @ _ = 2;
     match p {
-        x => ()
+        true => { b() },
+        false => { a() }
     }
 }

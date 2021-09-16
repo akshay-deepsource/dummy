@@ -6,5 +6,5 @@ enabled = true
 
 
   [analyzers.meta]
-  edition = "Edition2018"
+  edition = 2018
 
