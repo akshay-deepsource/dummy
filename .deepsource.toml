@@ -4,7 +4,7 @@ version = 1
 name = "rust"
 enabled = true
 
-
-  [analyzers.meta]
-  edition = 2018
+[[transformers]]
+name = "rustfmt"
+enabled = true
 
