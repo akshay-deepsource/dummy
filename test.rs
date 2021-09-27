@@ -10,8 +10,13 @@ fn main() {
     }
 
     fn lorem(
-        ipsum: Ipsum, dolor: Dolor, sit: Sit, amet: Amet, consectetur: Consectetur,
-        adipiscing: Adipiscing, elit: Elit,
+        ipsum: Ipsum,
+        dolor: Dolor,
+        sit: Sit,
+        amet: Amet,
+        consectetur: Consectetur,
+        adipiscing: Adipiscing,
+        elit: Elit,
     ) {
     }
 }
