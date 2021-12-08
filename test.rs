@@ -19,4 +19,7 @@ fn main() {
         elit: Elit,
     ) {
     }
+
+    let x: u32 = 0;
+    dbg!(x);
 }
