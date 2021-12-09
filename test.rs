@@ -23,3 +23,4 @@ fn main() {
     let x: u32 = 0;
     dbg!(x);
 }
+
