@@ -1,7 +1,5 @@
 fn main() {
-    // skipcq
     let x @ _ = 2;
-    // skipcq
     let x @ _ = 2;
     match p {
         true => b(),
