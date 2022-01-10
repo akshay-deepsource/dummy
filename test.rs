@@ -1,6 +1,6 @@
 fn main() {
-    let x @ _ = 2;
-    let x @ _ = 2;
+    let x = 2;
+    let x = 2;
     match p {
         true => b(),
         false => a(),
