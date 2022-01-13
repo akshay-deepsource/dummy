@@ -5,6 +5,7 @@ impl Error for MyType {
 fn main() {
     let x = 2;
     let x = 2;
+    let _ = Arc::get_mut(&abc);
     match p {
         true => b(),
         false => a(),
