@@ -1,3 +1,7 @@
+impl Error for MyType {
+    fn type_id(&self) -> TypeId { TypeId::of::<String>() }
+}
+
 fn main() {
     let x = 2;
     let x = 2;
