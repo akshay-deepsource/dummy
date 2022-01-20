@@ -6,6 +6,7 @@ fn main() {
     let x = 2;
     let x = 2;
     let _ = Arc::get_mut(&mut abc);
+    let _ = std::fs::remove_dir_all("/some/path");
     match p {
         true => b(),
         false => a(),
