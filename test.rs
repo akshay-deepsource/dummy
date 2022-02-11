@@ -30,7 +30,7 @@ fn main() {
     "abc".bytes().count();
     iter.inspect(|x| { println!("{}", x); }).for_each(|f| {
         f.x();
-    })
+    });
     iter.step_by(0);
     a.bytes().nth(2);
 }
