@@ -25,5 +25,13 @@ fn main() {
 
     let x: u32 = 0;
     dbg!(x);
+
+    x.skip(2).next();
+    "abc".bytes().count();
+    iter.inspect(|x| { println!("{}", x); }).for_each(|f| {
+        f.x();
+    })
+    iter.step_by(0);
+    a.bytes().nth(2);
 }
 
