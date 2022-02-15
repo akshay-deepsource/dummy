@@ -8,5 +8,6 @@ exclude_patterns = [
 name = "rust"
 enabled = true
 
-  [analyzers.meta]
-  msrv = "1.25.0"
+[[analyzers]]
+name = "github.com/akshay-deepsource/statix"
+enabled = true
