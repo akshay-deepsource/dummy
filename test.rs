@@ -3,7 +3,6 @@ fn main() {
 }
 
 trait X {
-    #[inline]
     fn f();
 }
 
