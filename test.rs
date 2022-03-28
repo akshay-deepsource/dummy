@@ -4,7 +4,7 @@ fn main() {
 
 trait X {
     #[inline]
-    fn f() {}
+    fn f();
 }
 
 #[must_use]
