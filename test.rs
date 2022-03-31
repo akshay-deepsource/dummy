@@ -1,7 +1,7 @@
 fn main() {
     let x @ _ = 2;
     let t: &str = "hello";
-    let _ = t.bytes().count();
+    let _ = t.len();
 }
 
 trait X {
