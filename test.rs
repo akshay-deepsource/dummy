@@ -9,7 +9,6 @@ trait X {
     fn f();
 }
 
-#[must_use]
 fn f() -> () {
     ()
 }
