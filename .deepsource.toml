@@ -1,13 +1,6 @@
 version = 1
 
-exclude_patterns = [
-    "tests/**",
-]
 
 [[analyzers]]
 name = "rust"
-enabled = true
-
-[[analyzers]]
-name = "github.com/akshay-deepsource/statix"
 enabled = true
